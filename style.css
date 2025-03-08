@@ -115,6 +115,7 @@ section.hero > button {
 
 section.hero > button:hover {
   background-color: var(--warn-color);
+  transform: translateX(5px);
 }
 
 main article {

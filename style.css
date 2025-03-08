@@ -110,6 +110,11 @@ section.hero > button {
   border-radius: 12px;
   text-transform: uppercase;
   cursor: pointer;
+  transition: 200ms;
+}
+
+section.hero > button:hover {
+  background-color: var(--warn-color);
 }
 
 main article {

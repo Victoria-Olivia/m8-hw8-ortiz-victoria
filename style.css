@@ -114,6 +114,15 @@ section.hero > button {
   animation: pulse 2s infinite;
 }
 
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
 section.hero > button:hover {
   background-color: var(--warn-color);
   transform: translateX(5px);

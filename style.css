@@ -111,6 +111,7 @@ section.hero > button {
   text-transform: uppercase;
   cursor: pointer;
   transition: 200ms;
+  animation: pulse 3s infinite;
 }
 
 section.hero > button:hover {

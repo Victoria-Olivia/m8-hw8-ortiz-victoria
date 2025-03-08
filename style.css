@@ -39,22 +39,26 @@ header {
 header a {
   font-size: 1.5rem;
   color: var(--off-white);
+  transition: 300ms;
 }
 
 header a:hover {
   color: var(--white);
   text-shadow: var(--white) 0px 0px 10px, var(--white) 0px 0px 20px, var(--gray) 2px 2px 2px;
+  transform: translateY(3px);
 }
 /* end header link animations */
 
 /* article link transitions */
 main a {
   color: var(--danger-color);
+  transition: 300ms;
 }
 
 main a:hover {
   color: var(--warn-color);
   text-shadow: var(--warn-color) 0px 0px 10px, var(--warn-color) 0px 0px 20px, var(--gray) 2px 2px 2px;
+  transform: translateY(3px);
 }
 /* end article link transitions */
 

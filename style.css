@@ -51,6 +51,11 @@ header a:hover {
 main a {
   color: var(--danger-color);
 }
+
+main a:hover {
+  color: var(--warn-color);
+  text-shadow: var(--warn-color) 0px 0px 10px, var(--warn-color) 0px 0px 20px, var(--gray) 2px 2px 2px;
+}
 /* end article link transitions */
 
 main > article, nav{
